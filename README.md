@@ -1,3 +1,9 @@
+## 🖊️Author: MANZI EZRA
+  ## ID:26688
+
+Project for: [Your Institution / Course]
+
+
 # 📦 Java OOP Project Bundle
 
 This repository contains three Object-Oriented Programming (OOP) projects developed in Java. Each system is built around real-world use cases and demonstrates key OOP principles such as **abstraction**, **inheritance**, **encapsulation**, and **polymorphism**.
@@ -30,16 +36,13 @@ This repository contains three Object-Oriented Programming (OOP) projects develo
 
 ---
 
-3. 🏫 Nursery Management System
-Description: A system designed to manage a nursery school, handling student records, class assignments, and attendance.
+### 3. 🏫 Nursery Management System
+-**Description**: A system designed to manage a nursery school, handling student records, class assignments, and attendance.
+-**Key Features**:
 
-Key Features:
-
-Base Person or Student class with subclasses for specific roles (e.g., Teacher, Guardian)
-
-Tracks student enrollment and class schedules
-
-Manages attendance and progress reports
+  -Base Person or Student class with subclasses for specific roles (e.g., Teacher, Guardian)
+  -Tracks student enrollment and class schedules
+  -Manages attendance and progress reports
 
 OOP Concepts: Inheritance, encapsulation, modular class design
 
@@ -59,3 +62,4 @@ OOP Concepts: Inheritance, encapsulation, modular class design
 cd LandManagementSystem/src
 javac *.java
 java Main
+
