@@ -75,20 +75,20 @@ java Main
 1. **Build the Docker Image**:
 
    ```bash
-   docker build -t 26685-manirabona-patience-java .
+   docker build -t 26688-Manzi-Ezra-java
    ```
 
 2. **Run the Docker Container**:
 
    ```bash
-   docker run -it 26685-manirabona-patience-java
+   docker run -it 26688-Manzi-Ezra-java
    ```
 
 3. **Navigate and Execute**:
    Inside the container, navigate to the desired system folder and compile/run the Java files. For example:
 
    ```bash
-   cd motor-insurance-system
+   cd Mission-Management-System
    javac Main.java
    java Main
    ```
@@ -98,21 +98,29 @@ java Main
 1. **Pull the Prebuilt Docker Image**:
 
    ```bash
-   docker pull patienceman/26685-manirabona-patience-java
+   docker pull Ezra-martin/26688-Manzi-Ezra-java
    ```
 
 2. **Run the Docker Container**:
 
    ```bash
-   docker run -it patienceman/26685-manirabona-patience-java
+   docker run -it Ezra-martin/26688-Manzi-Ezra-java
    ```
 
 3. **Navigate and Execute**:
    Inside the container, navigate to the desired system folder and compile/run the Java files. For example:
 
    ```bash
-   cd motor-insurance-system
+   cd Land-Management-System
    javac Main.java
    java Main
    ```
+
+
+   ## 📜 License
+   
+---
+
+Would you like this saved as a downloadable `.md` file or pasted into each project's own folder?
+
 
