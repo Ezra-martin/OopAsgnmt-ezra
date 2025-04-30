@@ -51,6 +51,11 @@ OOP Concepts: Inheritance, encapsulation, modular class design
 
 
 ---
+## 📚 Requirements
+Java JDK 8 or higher
+
+  -Basic knowledge of Object-Oriented Programming
+  -IDE (optional): IntelliJ, VS Code with Java Extension
 
 ## 🚀 How to Run
 
@@ -62,4 +67,52 @@ OOP Concepts: Inheritance, encapsulation, modular class design
 cd LandManagementSystem/src
 javac *.java
 java Main
+
+### Running the Project with Docker
+
+#### Option 1: Build and Run Locally
+
+1. **Build the Docker Image**:
+
+   ```bash
+   docker build -t 26685-manirabona-patience-java .
+   ```
+
+2. **Run the Docker Container**:
+
+   ```bash
+   docker run -it 26685-manirabona-patience-java
+   ```
+
+3. **Navigate and Execute**:
+   Inside the container, navigate to the desired system folder and compile/run the Java files. For example:
+
+   ```bash
+   cd motor-insurance-system
+   javac Main.java
+   java Main
+   ```
+
+#### Option 2: Use Docker Registry
+
+1. **Pull the Prebuilt Docker Image**:
+
+   ```bash
+   docker pull patienceman/26685-manirabona-patience-java
+   ```
+
+2. **Run the Docker Container**:
+
+   ```bash
+   docker run -it patienceman/26685-manirabona-patience-java
+   ```
+
+3. **Navigate and Execute**:
+   Inside the container, navigate to the desired system folder and compile/run the Java files. For example:
+
+   ```bash
+   cd motor-insurance-system
+   javac Main.java
+   java Main
+   ```
 
