@@ -117,10 +117,5 @@ java Main
    ```
 
 
-   ## 📜 License
-   
----
-
-Would you like this saved as a downloadable `.md` file or pasted into each project's own folder?
 
 
