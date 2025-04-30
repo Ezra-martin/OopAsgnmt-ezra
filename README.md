@@ -1,7 +1,7 @@
 ## 🖊️Author: MANZI EZRA
   ## ID:26688
 
-Project for: [Your Institution / Course]
+
 
 
 # 📦 Java OOP Project Bundle
