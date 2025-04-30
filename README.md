@@ -59,12 +59,19 @@ Java JDK 8 or higher
 
 ## 🚀 How to Run
 
+High recommend use Intellij to run the project onse cloned or pulled from docker
+
 > All projects are written in Java (JDK 8 or higher) and can be compiled and run from the terminal or any IDE like IntelliJ IDEA or Eclipse.
 
-### 🔧 Compile & Run from Terminal:
+### 🔧 Compile & Run:
 ```bash
 # Example for Land Management System
-cd LandManagementSystem/src
+cd LandManagementSystem
+```
+
+### via Terminal
+
+```bash
 javac *.java
 java Main
 
