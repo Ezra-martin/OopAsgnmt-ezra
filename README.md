@@ -1,78 +1,61 @@
-# Project Overview
+# 📦 Java OOP Project Bundle
 
-This repository contains three systems implemented in Java for the OOP Assignment:
-#### 🎯Land management systems : 
-Purpose: This system is designed to manage land-related data, including ownership details, land size, registration dates, and zoning compliance.
-#### 🎯Mission management system:
-Purpose: A system to manage and track missions within an organization, ensuring that resources are allocated efficiently and progress is monitored.
-#### 🎯Nursery management system:
-Purpose: This system helps manage the daily operations of a nursery, including tracking plants, inventory, and customer orders.
+This repository contains three Object-Oriented Programming (OOP) projects developed in Java. Each system is built around real-world use cases and demonstrates key OOP principles such as **abstraction**, **inheritance**, **encapsulation**, and **polymorphism**.
 
-## Prerequisites
+---
 
-- Java Development Kit (JDK) 11 or later
-- Docker installed on your system
+## 📁 Projects Included
 
-## Setup Instructions
+### 1. 🌍 Land Management System
+- **Description**: Manages land records including ownership details, location, size, and usage.
+- **Key Features**:
+  - Abstract `Land` class with subclasses (e.g., Residential, Agricultural)
+  - Validates ownership details
+  - Calculates tax and checks zoning compliance
+- **OOP Concepts**: Abstract classes, inheritance, method overriding
 
-### Running the Project with Docker
-1. **Build the Docker Image**:
+📂 Location: `LandManagementSystem/src/`
 
-   ```bash
-   docker build -t 26688-Manzi-Ezra-java .
-   ```
+---
 
-2. **Run the Docker Container**:
+### 2. 🚀 Mission Management System
+- **Description**: Tracks and manages different types of missions such as space or military operations.
+- **Key Features**:
+  - Abstract `Mission` class with concrete mission types
+  - Collects input using `Scanner`
+  - Supports mission validation and reporting
+- **OOP Concepts**: Abstract classes, encapsulation, polymorphism
 
-   ```bash
-   docker run -it 26688-Manzi-ezra-java
-   ```
+📂 Location: `MissionManagementSystem/src/`
 
-#### Option 1: Build and Run Locally
+---
 
-3. **Navigate and Execute**:
-   Inside the container, navigate to the desired system folder and compile/run the Java files. For example:
+3. 🏫 Nursery Management System
+Description: A system designed to manage a nursery school, handling student records, class assignments, and attendance.
 
-   ```bash
-   cd Land-Management-System
-   javac Main.java
-   java Main
-   ```
-#### Option 2: Use Docker Registry
+Key Features:
 
-1. **Pull the Prebuilt Docker Image**:
+Base Person or Student class with subclasses for specific roles (e.g., Teacher, Guardian)
 
-   ```bash
-   docker pull  Ezra-martin/26688-Manzi-Ezra-java
-   ```
+Tracks student enrollment and class schedules
 
-2. **Run the Docker Container**:
+Manages attendance and progress reports
 
-   ```bash
-   docker run -it Ezra-martin/26688-Manzi-Ezra-java
-   ```
+OOP Concepts: Inheritance, encapsulation, modular class design
 
-3. **Navigate and Execute**:
-   Inside the container, navigate to the desired system folder and compile/run the Java files. For example:
+📂 Location: NurseryManagementSystem/src/
 
-   ```bash
-   cd Land-Management-system
-   javac Main.java
-   java Main
-   ```
 
-### Running Locally
 
-1. Clone the repository:
+---
 
-   ```bash
-   git clone https://github.com/Ezra-martin/Manzi-Ezra-java.git 
-   ```
+## 🚀 How to Run
 
-2. Navigate to the desired system folder and compile/run the Java files. For example:
+> All projects are written in Java (JDK 8 or higher) and can be compiled and run from the terminal or any IDE like IntelliJ IDEA or Eclipse.
 
-   ```bash
-   cd Mission-Management-System
-   javac Main.java
-   java Main
-   ```
+### 🔧 Compile & Run from Terminal:
+```bash
+# Example for Land Management System
+cd LandManagementSystem/src
+javac *.java
+java Main
